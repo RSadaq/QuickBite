@@ -1,0 +1,34 @@
+﻿@page
+@model QuickBite.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Good Food, With Love</h1>
+    <p>At Affordable prices</p>
+
+    <br>
+<br>
+
+@foreach (var product in Model.Products)
+{
+ <div class="meal">   <img class="img-fluid" src="/images/products/thumbnails/@product.ImageName" alt=" Image of @product.Name" />
+              <p>@product.Description -£ @product.Price </p>
+              <br>
+              <a class="btn btn-danger order-button" asp-page="/Order" asp-route-id="@product.Id" title="Order @product.Name">Order Now</a>
+             
+</div>
+}
+
+           
+            
+              
+               
+                
+
+             
+               
+               
+
+
