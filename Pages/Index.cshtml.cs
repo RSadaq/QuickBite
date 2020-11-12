@@ -15,7 +15,6 @@ namespace QuickBite.Pages
         public IndexModel(QuickBiteContext db) => this.db = db;//parameter's value provided by dependency injection system (i.e. 'construction injection')
 
         public List<Product> Products { get; set; } = new List<Product>();  
-      
         public async Task OnGetAsync()
         {
             Products = await db.Products.ToListAsync();   

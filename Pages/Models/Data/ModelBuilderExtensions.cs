@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using QuickBite.Pages.Models;
+using System.Data.SqlClient;
 
 namespace QuickBite.Pages.Models.Data
 {

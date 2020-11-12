@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Rehana\\QuickBite\\QuickBite.csproj",
+  "FilePath": "c:\\Users\\Rehana\\trying-this-out\\QuickBite.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,53 +14392,53 @@
   "RootNamespace": "QuickBite",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Rehana\\QuickBite\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rehana\\QuickBite\\Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\Rehana\\trying-this-out\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Rehana\\QuickBite\\Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Rehana\\trying-this-out\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Rehana\\QuickBite\\Pages\\Order.cshtml",
-      "TargetPath": "Pages\\Order.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rehana\\QuickBite\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rehana\\QuickBite\\Pages\\About.cshtml",
-      "TargetPath": "Pages\\About.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rehana\\QuickBite\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Rehana\\QuickBite\\Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\Rehana\\trying-this-out\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Rehana\\QuickBite\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\Rehana\\trying-this-out\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rehana\\trying-this-out\\Pages\\About.cshtml",
+      "TargetPath": "Pages\\About.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rehana\\trying-this-out\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rehana\\trying-this-out\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Rehana\\QuickBite\\Pages\\OrderSuccess.cshtml",
+      "FilePath": "c:\\Users\\Rehana\\trying-this-out\\Pages\\OrderSuccess.cshtml",
       "TargetPath": "Pages\\OrderSuccess.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rehana\\trying-this-out\\Pages\\Order.cshtml",
+      "TargetPath": "Pages\\Order.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Rehana\\trying-this-out\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     }
   ],

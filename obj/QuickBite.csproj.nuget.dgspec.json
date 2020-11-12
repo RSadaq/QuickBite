@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rehana\\QuickBite\\QuickBite.csproj": {}
+    "C:\\Users\\Rehana\\trying-this-out\\QuickBite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rehana\\QuickBite\\QuickBite.csproj": {
+    "C:\\Users\\Rehana\\trying-this-out\\QuickBite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rehana\\QuickBite\\QuickBite.csproj",
+        "projectUniqueName": "C:\\Users\\Rehana\\trying-this-out\\QuickBite.csproj",
         "projectName": "QuickBite",
-        "projectPath": "C:\\Users\\Rehana\\QuickBite\\QuickBite.csproj",
+        "projectPath": "C:\\Users\\Rehana\\trying-this-out\\QuickBite.csproj",
         "packagesPath": "C:\\Users\\feroz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rehana\\QuickBite\\obj\\",
+        "outputPath": "C:\\Users\\Rehana\\trying-this-out\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -48,6 +48,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",

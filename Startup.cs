@@ -10,6 +10,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using QuickBite.Data;
 using Microsoft.EntityFrameworkCore.Design;
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace QuickBite
 {
@@ -27,6 +28,9 @@ namespace QuickBite
         {
             services.AddRazorPages();
             services.AddDbContext<QuickBiteContext>();
+            //services.AddDbContext<QuickBiteContext>(options => options.UseSqlServer(Configuration.GetConnectionString("menu-items")));
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

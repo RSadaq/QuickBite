@@ -11,7 +11,7 @@
     <br>
 <br>
 
-@foreach (var product in Model.Products)
+@foreach (var product in Model.Products)//list of products
 {
  <div class="meal">   <img class="img-fluid" src="/images/products/thumbnails/@product.ImageName" alt=" Image of @product.Name" />
               <p>@product.Description -£ @product.Price </p>
@@ -20,15 +20,3 @@
              
 </div>
 }
-
-           
-            
-              
-               
-                
-
-             
-               
-               
-
-

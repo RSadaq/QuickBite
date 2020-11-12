@@ -10,10 +10,11 @@ namespace QuickBite.Data
     public class QuickBiteContext : DbContext
     {
          public DbSet<Product> Products { get; set; }
-        
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data source=QuickBite.db");
+            
+             optionsBuilder.UseSqlServer("Server={Your Server Name};Initial Catalog={};Persist Security Info=False;User ID={Your UserID};Password={Your Password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
 
          protected override void OnModelCreating(ModelBuilder modelBuilder)
